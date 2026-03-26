@@ -1,0 +1,81 @@
+/* Part 3: Your styling goes here */
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 24px;
+            background-color: #81aeca;
+        }
+
+        h1 {
+            font-weight: bold;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            margin-top: 22px;
+            margin-bottom: 12px;
+        }
+
+        h2:hover{
+            color: #2712de;
+        }
+
+
+        h3 {
+            margin-top: 18px;
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        article {
+            background-color: rgb(216, 228, 231);
+            border-radius: 12px;
+            margin-bottom: 24px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        img {
+            border-radius: 10px;
+            max-width: 300px;
+            display: block;
+            margin-bottom: 12px;
+            border: 2px solid #d9d9d9;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.50);
+            transition: 0.2s;
+        }
+
+        img:hover {
+            box-shadow: 0 8px 18px rgba(23, 25, 179, 0.50);
+        }
+
+        p {
+            margin: 8px 0;
+            line-height: 2;
+        }
+
+        span {
+            margin-right: 8px;
+        }
+
+        .genre {
+            background-color: #8fadf8;
+            padding: 4px 8px;
+            border-radius: 8px;
+            display: inline-block;
+            transition: background-color 0.2s ease;
+        }
+
+        .genre:hover {
+            background-color: #8e9cbe;
+            
+        }
